@@ -1,0 +1,142 @@
+/* Основные стили для страницы */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Контейнер для всего контента */
+div {
+    width: 80%;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Заголовки */
+h1 {
+    color: #2c3e50;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h2 {
+    color: #34495e;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+/* Кнопки */
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Добавляем отступ между кнопками */
+button + button {
+    margin-left: 60px;
+}
+
+/* Скрытая кнопка выбора файла */
+label[for="actual-btn"] {
+    background-color: #e67e22;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+label[for="actual-btn"]:hover {
+    background-color: #d35400;
+}
+
+#file-chosen {
+    margin-left: 10px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+/* Изображения */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 30px;
+}
+
+img {
+    display: block;
+    margin: 0 auto 10px auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+}
+
+picture {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Текст описания */
+p.get {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #555;
+}
+
+p.get strong {
+    color: #2c3e50;
+}
+
+/* Форма обратной связи */
+div > h1 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Сообщение о состоянии */
+p {
+    font-size: 16px;
+    text-align: center;
+    color: #16a085;
+}
